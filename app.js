@@ -3,7 +3,7 @@ const path = require('path');
 const { MongoClient } = require('mongodb');
 
 const app = express();
-const PORT = process.env.PORT || 5500;
+const PORT = process.env.PORT || 8100;
 
 // Middleware for serving static files
 app.use(express.static(path.join(__dirname, 'public')));
